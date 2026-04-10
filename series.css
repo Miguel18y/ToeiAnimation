@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    overflow: hidden;
+    border-bottom: 1px solid rgb(224, 102, 14);
+    height: 80px;
+}
+#logoHeader{
+    width: 15%;
+    float: left;
+}
+#imgLogo{
+    margin: 19px 60px;
+    width: 280px;
+    height: 55px; 
+}
+nav{
+    float: left;
+    margin: 20px 300px;
+    width: 460px;
+}
+.lineaSecc:hover{
+    border-bottom: 3px solid rgb(224, 102, 14);
+}
+.redes{
+    float: right;
+    margin: 22px 20px;
+    display: flex;
+    align-items: center;
+}
+.icon-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: #E8755A;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 4px;
+    transition: background-color 0.2s ease;
+}
+.icon-social:hover {
+    background-color: #d05e42;
+}
+#lista{
+    list-style: none;
+}
+.item{
+    float: left;
+    margin: 8px;
+}
+.enlace{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    background: linear-gradient(135deg, rgb(250, 235, 230) 50%, white 50%);
+    overflow: hidden;
+}
+
+#tituloPag{
+    margin-left: 208px;
+    margin-top: 50px;
+}
+h1::first-letter{
+    color: rgb(224, 102, 14);
+}
+#cards{
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1200px;
+}
+.card{
+    width: 250px;
+    height: 450px;
+    float: left;
+    overflow: hidden;
+    margin: 10px 70px;
+    margin-top: 90px;
+    border-radius: 15px;
+}
+.imgCard{
+    width: 100%;
+}
+.tituloCard{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 65px;
+    box-sizing: border-box;
+}
+#logoFooter{
+    order: 1;
+    width: 80px;
+    flex-shrink: 0;
+}
+#imgFooter{
+    width: 180%;
+}
+#contCopy{
+    order: 2;
+    margin: 0;
+    width: auto;
+    flex: 1;
+    text-align: center; 
+}
+#copy{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+#redesFooter{
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+#imgRedesFooter{
+    width: 135px;
+    height: 55px;
+}
